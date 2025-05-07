@@ -33,14 +33,5 @@ The patrol data must:
 - Exclude any days with missing data
 
 
-### 5. Write tests for some of your functions
-Write 2-3 tests to demonstrate what a comprehensive test suite would look like that ensures complete coverage of the codebase.
-
-
-### 6. Create a framework for ensuring that code merged into main, via pull requests, is correct and meets coding standards.
-
-
-
-
-
-
+### 5. Create a framework for ensuring that code stored in git maintains the required standards
+It is important for code that is deployed to production and is worked on by multiple team members to adhere to agreed standards. Please implement a framework to ensure that code merged into main, via pull requests, is correct and meets these standards.
