@@ -12,10 +12,12 @@ The data comprises public 'stop and search' data from an API and dummy police pa
 
 You have 4 tasks to complete over the next 45 minutes. You are free to write and structure your code as you see fit.
 After the 45 minutes, you will have 5 minutes to present your work during which you will describe what you have done and why.
+There will then be an additional coding task to complete live with the interview panel.
 
-### 1. Create a process for establishing and maintaining code quality
-It is important that this project aligns to PEP 8 standards and other industry best practices for productionised python code. Please implement the core of a framework to ensure all code committed to this project aligns to a set of standards you have selected.
-You can assume that this project only requires pandas/polars and pytest as critical dependencies
+### 1. Introduce a mechanism for managing project dependencies
+This pipeline will be deployed into a cloud environment and be worked on by many team members. Please introduce a mechanism to ensure that the correct dependencies are used and maintained for this project.
+
+You can assume that the minimum critical dependencies are pandas/polars and pytest.
 
 ### 2. Ingest the public 'stop and search' data
 This can be found here: https://data.police.uk/docs/ under 'Stop and searches by force'.
@@ -26,11 +28,13 @@ Please convert this data to a DataFrame so that it can be combind with the patro
 
 If you are unable to load this data for any reason, you can find a copy in `raw_data` as `04_stop_and_search.json`, `05_stop_and_search.json` and `06_stop_and_search.json`. Please retain any code you have written.
 
-
 ### 3. Load the patrol data
 This is a static csv file stored in the repo at this location: `raw_data/derbyshire_patrol_data.csv`.
 Please ensure that only the required rows of data are included in the DataFrame.
 
+### 4. Create a process for establishing and maintaining code quality
+Code deployed to production, and worked on by multiple people, must adhere to agreed standards.
+This project must align with PEP8 standards and other industry best practices for productionised python code.
 
-### 4. Create a framework for ensuring that code stored in git maintains the required standards
-It is important for code that is deployed to production and is worked on by multiple team members adheres to agreed standards. Please implement a framework to ensure that code merged into main, via pull requests, is correct and meets these standards.
+Please implement any processes/workflows to ensure that all code committed to this project align to a set of standards you have selected. 
+This should include all code sent to the remote repository, including pull requests.
