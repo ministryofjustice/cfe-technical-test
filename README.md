@@ -8,7 +8,7 @@ You do not need to push your code to GitHub, or deploy it any where.
 We expect this pilot to expand to include more police forces and cover additional time frames and your approach to writing code should anticipate this.
 The project team will include colleagues with a range of knowledge and experience. You should focus on creating frameworks, workflows, documentation and processes to support the growth of this team and maintenance of standards.
 
-The data comprises public 'stop and search' data from an API and dummy police patrol data supplied by Derbyshire police force.
+The data comprises public 'stop and search' data from an API and sample police patrol data supplied by Derbyshire police force.
 
 You have 4 tasks to complete over the next 45 minutes. You are free to write and structure your code as you see fit.
 After the 45 minutes, you will have 5 minutes to present your work during which you will describe what you have done and why.
